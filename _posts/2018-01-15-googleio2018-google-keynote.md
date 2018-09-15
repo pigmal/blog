@@ -1,6 +1,6 @@
 ---
-date: 2018-09-15
-title: IO recap - Google Keynote at Google I/O 2018
+date: 2018-09-14
+title: Keywords in "Google Keynote" @ Google I/O 2018
 video_id: ogfYd705cRs
 description:
 categories:
