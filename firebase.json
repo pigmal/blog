@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "target": "blog",
+    "public": "_site",
+    "ignore": [
+      "firebase.json",
+      "deploy.sh",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

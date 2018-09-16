@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "pigmalweb-1492065404675"
+  },
+  "targets": {
+    "pigmalweb-1492065404675": {
+      "hosting": {
+        "blog": [
+          "pigmal-blog"
+        ]
+      }
+    }
+  }
+}
