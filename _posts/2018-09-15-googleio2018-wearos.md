@@ -13,7 +13,6 @@ set: google-io-2018
 set_order: 6
 ---
 
-
 ## Update
   - 50 wear os powered watches in market
   - introduce some products

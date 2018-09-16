@@ -1,5 +1,5 @@
 ---
-date: 2018-09-14
+date: 2018-08-01
 title: Keywords in "Google Keynote" @ Google I/O 2018
 video_id: ogfYd705cRs
 description:
@@ -58,7 +58,17 @@ set_order: 1
     - News Stand
     - Subscribe with Google
 ## Android → Android P brings 'more power' to your smartphone
-  - Digital Wellbeing
+  - Intelligence
+    - Adaptive Battery
+    - Adaptive Brightness
+    - App Actions
+    - Slices
+    - ML Kit
+  - Simplicity
+    - [demo]Android UI
+      - System Navigation
+      - Single clean home button
+  - Digital wellbeing
     - Dashboard
     - App Timer
     - Do Not Disturb

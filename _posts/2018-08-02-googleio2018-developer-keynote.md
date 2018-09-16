@@ -1,5 +1,5 @@
 ---
-date: 2018-09-15
+date: 2018-08-02
 title: Keywords in "Developer Keynote" @ Google I/O 2018
 video_id: flU42CTF3MQ
 description:
@@ -12,7 +12,6 @@ type: Video
 set: google-io-2018
 set_order: 2
 ---
-
 
 ## AI for everyone
 ## Android
