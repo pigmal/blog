@@ -111,6 +111,6 @@ $ firebase deploy --only hosting:<target>
 ## 独自ドメイン設定
 - firebase consoleでサイトの設定画面を開いて`Connect domain`
 - 表示されるテキストをドメインのTXTレコードに設定
-
 ![Firebase Hosting original domain](/images/post/firebase-hosting-domain.png)
-
+- しばらくしてDNS設定が確認出来ると、以下のようにAレコード設定情報が表示されるので、設定する
+![Firebase Hosting original domain](/images/post/firebase-hosting-domain2.png)
