@@ -1,6 +1,6 @@
 ---
 date: 2018-09-22
-title: Firebase FunctionでES 2017のasync/awaitが使えるようにする
+title: Firebase Functionsをnode8で動かす
 categories:
   - firebase
 description: "Tips on developing Firebase"
@@ -11,9 +11,10 @@ type: Document
 Cloud Functionsのnode8対応が発表されました。
 - https://cloud.google.com/blog/products/gcp/cloud-functions-serverless-platform-is-generally-available
 
-node8はES2017のasync/awaitをサポートしています。本ページでは、Firebase Cloud Functionsでasync/awaitが使える環境を準備する手順を紹介します。
+node8はES2017のasync/awaitをサポートしています。
+本ページでは、Firebase Functionsでasync/awaitが使える環境を準備する手順を紹介します。
 
-## preconditions
+## 前提
 
 - javascriptでcloud functionsをデプロイ出来る環境が構築済みであること
 - async/awaitの使い方を知っていること
