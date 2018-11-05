@@ -16,7 +16,7 @@ node8はES2017のasync/awaitをサポートしています。
 
 ## 前提
 
-- javascriptでcloud functionsをデプロイ出来る環境が構築済みであること
+- javascriptのcloud functionsをデプロイ出来る環境が構築済みであること
 - async/awaitの使い方を知っていること
 
 - 以下のコードををdeployして、`https://<your-project>.cloudfunctions.net/hello`にブラウザからアクセスして`Hello, cloud functions!`が表示されればOK。
@@ -47,15 +47,13 @@ node8はES2017のasync/awaitをサポートしています。
 ```
 
 ## 設定
-1. nodeのバージョンを8.xにする
-開発環境のnodeバージョンを8.xにする。nvmを使っている場合は以下。
+
+1. 開発環境のnodeバージョンを8.xにする。以下、nvmを使った例。
 ```
 $ nvm use <v8.12.0>
-
 $ node --version
 v8.12.0
 ```
-
 2. firebase-toolsのバージョンを4.0.0以上に上げる
 ```
 $ npm install -g firebase-tools
@@ -64,7 +62,7 @@ $ npm install -g firebase-tools
 ```
 3. Firebase Functionsのバージョンを上げる
 - package.json
-  - firebase functionsのバージョンを2.0.0以上に上げます。依存するモジュールのバージョンも上げる必要があります。
+  - firebase functionsのバージョンを2.0.0以上に上げる。依存するモジュールのバージョンも上げる。
 ```
   "firebase-functions": "^2.0.5"
 ```
@@ -82,3 +80,10 @@ $ npm install -g firebase-tools
    "ecmaVersion": 2017
 ```
 
+## デプロイ
+
+```
+$ firebase  deploy --only functions
+```
+
+`https://<your-project>.cloudfunctions.net/helloAsync`にブラウザでアクセスして`Hello, async/await!`が表示されればOK
